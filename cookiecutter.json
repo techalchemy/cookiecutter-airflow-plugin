@@ -1,0 +1,14 @@
+{
+  "plugin_type": "airflow",
+  "project_slug": "airflow-{{ cookiecutter.plugin_type.lower().replace(' ', '-') }}-plugin",
+  "project_description": "Apache Airflow {{ cookiecutter.plugin_type.title() }} Plugin.",
+  "package_name": "{{ cookiecutter.project_slug.replace('-', '_') }}",
+  "package_version": "0.0.1",
+  "author": "Dan Ryan",
+  "email": "dan@danryan.co",
+  "github_username": "techalchemy",
+  "github_url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
+  "initialize_git_repository": "y",
+  "build_virtual_environment": "y",
+  "initialize_pre_commit": "y"
+}
